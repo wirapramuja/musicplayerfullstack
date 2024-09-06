@@ -8,7 +8,7 @@ export const PlayerContext = createContext()
 
 const PlayerContextProvider = (props) => {
 
-    const url = 'http://localhost:4000'
+    const url = 'https://backend-musicplayer.vercel.app'
 
     const audioRef = useRef()
     const seekBg = useRef()
